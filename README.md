@@ -13,7 +13,7 @@ Run XBomb.py from cmd.
 
 To download on Linux:
 
-git clone https://github.com/mr-exo/XMail.git
+git clone https://github.com/mr-exo/XBomb.git
 
 cd XBomb
 
