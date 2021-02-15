@@ -1,3 +1,4 @@
+#!usr/bin/env python
 '''
 XBomb Created by Exo
 Check out BHU: https://discord.gg/2Utj3prC
