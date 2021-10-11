@@ -1,5 +1,5 @@
 # XBomb
-An E-Mail Bomber made in Python./
+An E-Mail Bomber made in Python.
 
 I'm rewriting this file since the explanation of this script is dogshit.
 
