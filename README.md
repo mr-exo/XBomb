@@ -1,18 +1,15 @@
 # XBomb
-An E-Mail Bomber made in Python.
+An E-Mail Bomber made in Python./
 
-# To download on Windows:
-Download in .ZIP file.
-Unzip it.
-Run XBomb.py from cmd.
+I'm rewriting this file since the explanation of this script is dogshit.
 
-# To download on Linux:
-git clone https://github.com/mr-exo/XBomb.git | 
-cd XBomb | 
-python XBomb.py
+There's a v2 coming soon aswell.
 
-# Do whatever you want with my code
-You're good with copying, modifying my code.
-I just don't care.
-# Check Out My Discord Server:
-https://discord.gg/2Utj3prC
+To download XBomb, paste this command:\
+`git clone https://github.com/mr-exo/XBomb.git`
+
+Then, do:\
+`pip3 install -r requirements.txt`
+
+And finally, run the script with:\
+`python3 XBomb.py`
