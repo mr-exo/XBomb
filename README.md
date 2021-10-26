@@ -1,4 +1,8 @@
 # XBomb
+
+## Note!
+### This project isn't supported anymore!
+
 An E-Mail Bomber made in Python.
 
 I'm rewriting this file since the explanation of this script is dogshit.
