@@ -1,9 +1,5 @@
 #!usr/bin/env python
-'''
-XBomb Created by Exo
-Check out BHU: https://discord.gg/2Utj3prC
-Thanks for using XBomb!
-'''
+
 import requests
 from time import sleep
 from colorama import init
