@@ -1,5 +1,5 @@
 ## Note!
-### This project isn't supported anymore!
+### This project isn't supported anymore and it does not work anymore.
 \
 \
 \
